@@ -152,6 +152,12 @@ a {
 .signup-left {
     display: flex;
     flex-direction: column;
+
+}
+
+.signuptext {
+    margin: 0px;
+    padding: 0px;
 }
 
 .signup-right {
@@ -170,4 +176,13 @@ a {
     font-weight: bold;
     border-style: solid;
     border-color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 16px;
+    font-size: 12px;
 }
