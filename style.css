@@ -7,7 +7,7 @@
     justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
-    padding: 16px 100px;
+    padding: 16px 200px;
 }
 
 .headerlogo {
@@ -30,4 +30,144 @@ li {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px 200px;
+    
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+    padding:0px;
+}
+
+.heroimg {
+    height: 200px;
+    width: 400px;
+    padding: 50px;
+}
+
+.herobutton {
+    border-radius: 25px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: fit-content;
+    padding: 10px 40px;
+    font-weight: bold;
+    border: none;
+}
+
+.infotitle {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 36px;
+}
+
+.cards {
+    padding: 50px 250px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.infotext {
+    color: #1f2937;
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+}
+
+.infoimg {
+    height: 150px;
+    width: 150px;
+    border:#3882f6;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px 350px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoteauthor {
+    text-align: right;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 20px;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    color: #F9FAF8;
+}
+
+.signup-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupbutton {
+    border-radius: 20px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 40px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #F9FAF8;
 }
